@@ -13,6 +13,8 @@
 		C87FFCAC1DC3556600BF6EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87FFCAA1DC3556600BF6EF9 /* Main.storyboard */; };
 		C87FFCAE1DC3556600BF6EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87FFCAD1DC3556600BF6EF9 /* Assets.xcassets */; };
 		C87FFCB11DC3556600BF6EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87FFCAF1DC3556600BF6EF9 /* LaunchScreen.storyboard */; };
+		C87FFCBB1DC3563500BF6EF9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87FFCBA1DC3563500BF6EF9 /* ThirdViewController.swift */; };
+		C8D8FF6A1DC357B500E55A0E /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D8FF691DC357B500E55A0E /* ForthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C87FFCAD1DC3556600BF6EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C87FFCB01DC3556600BF6EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C87FFCB21DC3556600BF6EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C87FFCBA1DC3563500BF6EF9 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
+		C8D8FF691DC357B500E55A0E /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C87FFCA41DC3556600BF6EF9 /* AppDelegate.swift */,
 				C87FFCA61DC3556600BF6EF9 /* FirstViewController.swift */,
 				C87FFCA81DC3556600BF6EF9 /* SecondViewController.swift */,
+				C87FFCBA1DC3563500BF6EF9 /* ThirdViewController.swift */,
+				C8D8FF691DC357B500E55A0E /* ForthViewController.swift */,
 				C87FFCAA1DC3556600BF6EF9 /* Main.storyboard */,
 				C87FFCAD1DC3556600BF6EF9 /* Assets.xcassets */,
 				C87FFCAF1DC3556600BF6EF9 /* LaunchScreen.storyboard */,
@@ -141,7 +147,9 @@
 			files = (
 				C87FFCA91DC3556600BF6EF9 /* SecondViewController.swift in Sources */,
 				C87FFCA51DC3556600BF6EF9 /* AppDelegate.swift in Sources */,
+				C87FFCBB1DC3563500BF6EF9 /* ThirdViewController.swift in Sources */,
 				C87FFCA71DC3556600BF6EF9 /* FirstViewController.swift in Sources */,
+				C8D8FF6A1DC357B500E55A0E /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				C87FFCB71DC3556600BF6EF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
